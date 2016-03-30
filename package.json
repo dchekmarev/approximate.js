@@ -1,0 +1,34 @@
+{
+  "name": "approximate-function",
+  "description": "function approximation on a set of segments",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dchekmarev/approximate.js.git"
+  },
+  "homepage": "https://github.com/dchekmarev/approximate.js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.4"
+  },
+  "keywords": [
+    "approximate",
+    "function",
+    "points",
+    "segments",
+    "math"
+  ],
+  "author": {
+    "name": "Dmitriy Chekmarev",
+    "email": "dzmitryc@gmail.com",
+    "url": "https://github.com/dchekmarev"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  }
+}
