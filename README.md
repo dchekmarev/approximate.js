@@ -1,5 +1,7 @@
 # approximate.js
 
+why you might want to use it? on a small amount of segments it's faster than Math's trigonometric functions.
+
 example:
 ```js
 const approximate = require('approximate-function');
